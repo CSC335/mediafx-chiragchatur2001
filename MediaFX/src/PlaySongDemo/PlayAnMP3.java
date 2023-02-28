@@ -28,7 +28,9 @@ public class PlayAnMP3 extends Application {
   @Override
   public void start(Stage stage) throws Exception {
     BorderPane pane = new BorderPane();
-    String path = "songfiles/Capture.mp3";
+    String path = "songfiles/anythingPitBull.mp3";
+    //I, Chiragdeep Chatur, like PitBull
+    //So I am okay playing any of his songs
     pane.setCenter( new Label(path));
     playASong(path);
     // Put the pane in a sized Scene and show the GUI
